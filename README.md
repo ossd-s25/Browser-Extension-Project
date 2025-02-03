@@ -1,2 +1,5 @@
-# Browser-Extension-Project
-Open Source Browser Extension Project (Team-7)
+# Browser-Scroller Project
+
+### An open source Browser Scroller project (Team-7)###
+
+Need help scrolling through websites? Finding the task a bit too tedious? Well look no further because **Browser Scroller** is here to solve your problems.
