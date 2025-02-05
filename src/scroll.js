@@ -30,4 +30,4 @@ window.addEventListener("wheel", (event) => {
     
 });
 
-// Mobile scroll is a different event
+// Mobile scroll is a different event (future work)
