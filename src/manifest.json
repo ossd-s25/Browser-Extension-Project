@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Browser Scroller",
+  "version": "1.0",
+  "description": "Scroll your content endlessly",
+  "homepage_url": "https://github.com/ossd-s25/Browser-Scroller",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon-48.png",
+    "default_title": "Browser Scroller",
+    "default_popup": "popup/settings.html"
+  },
+
+  "content_scripts": [
+      {
+        "matches": ["*://*.com/*"],
+        "js": ["scroll.js"]
+      }
+    ]
+}
