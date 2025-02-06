@@ -2,7 +2,7 @@
 
 This is an open-source browser extension project. It simply modifies the behavior of the browser by reloading content from the top of the page once the user scrolls to the bottom of the browser. 
 
-This repository is a simple extension made to learn and practice setting up our first open-source project.
+This repository is for a simple extension made to learn and practice setting up our first open-source project.
 
 Need help scrolling through websites? Finding the task a bit too tedious? Well look no further because **Browser Scroller** is here to solve your problems.
 
@@ -20,9 +20,7 @@ To use, click on the extensions button on the top right corner of the browser. C
 
 If you encounter any problems:
 
-- submit a pull request for anything code related, [file a bug](https://github.com/ossd-s25/Browser-Scroller/pulls)
-- submit an issue request for anything non code-related, [file an issue](https://github.com/ossd-s25/Browser-Scroller/issues)
-
+- submit an issue request for anything code/non-code related, [file an issue](https://github.com/ossd-s25/Browser-Scroller/issues)
 
 ## Contributing
 
