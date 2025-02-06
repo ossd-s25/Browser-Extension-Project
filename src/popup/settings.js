@@ -1,4 +1,11 @@
-browser.storage.local.set({ endless_scroll: false });
+browser.storage.local.get("endless_scroll").then((result) => {
+    const checkbox = document.getElementById("checkbox");
+    if (result.endless_scroll) {
+        checkbox.checked = true;
+    } else {
+        checkbox.checked = false;
+    }
+});
 
 document.addEventListener("DOMContentLoaded", () => {
     const checkbox = document.getElementById("checkbox");
