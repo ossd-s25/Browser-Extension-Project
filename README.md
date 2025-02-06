@@ -20,8 +20,7 @@ To use, click on the extensions button on the top right corner of the browser. C
 
 If you encounter any problems:
 
-- submit a pull request for anything code related, [file a bug](https://github.com/ossd-s25/Browser-Scroller/pulls)
-- submit an issue request for anything non code-related, [file an issue](https://github.com/ossd-s25/Browser-Scroller/issues)
+- submit an issue request for anything code or non code-related, [file an issue](https://github.com/ossd-s25/Browser-Scroller/issues).
 
 
 ## Contributing
