@@ -1,11 +1,20 @@
 # Browser-Scroller Project
 
-This is an open-source browser extension project. It simply modifies the behavior of the browser by reloading content from the top of the page once the user scrolls to the bottom of the browser. 
+**Browser Scroller** is an open-source browser extension designed to provide a seamless, infinite browsing experience. Instead of reaching the end of a webpage and having to manually navigate up, this extension automatically reloads the content from the top once the user scrolls to the bottom.
+
+
+## Why Use This?
+
+* Enhanced reading experience without the need to manually scroll back up when reviewing long webpages repeatedly.
+
+* Reference and study material for reviewing/cycling content multiple times, like documentation, study guides, or certain papers.
+
+* Can be adapted to work for display screens: ideal for schedules, announcements, dashboards, or advertisements that need to continuously repeat content without restarting the system.
 
 This repository is a simple extension made to learn and practice setting up our first open-source project.
 
 
-## How to use the "Browser-Scroller" extension
+## How To Use The "Browser-Scroller" Extension
 
 To get started, clone the project reposistory for the extension.
 
