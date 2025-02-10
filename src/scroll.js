@@ -34,4 +34,61 @@ window.addEventListener("wheel", (event) => {
     
 });
 
+
+// variables for auto scroll down speed when endless scroll is enabled
+let autoScrollInterval = null;
+let autoScrollSpeed = 0; // Default speed
+
+// Function to update speed from storage
+function updateAutoScrollSpeed() {
+    browser.storage.local.get("auto_scroll_speed").then((result) => {
+        autoScrollSpeed = result.auto_scroll_speed || 5;
+    });
+}
+
+// Function to start scrolling
+function startAutoScroll() {
+    if (!autoScrollInterval) {
+        autoScrollInterval = setInterval(() => {
+            window.scrollBy(0, autoScrollSpeed);
+        }, 50); // Scroll every 50ms
+    }
+}
+
+// Function to stop scrolling
+function stopAutoScroll() {
+    if (autoScrollInterval) {
+        clearInterval(autoScrollInterval);
+        autoScrollInterval = null;
+    }
+}
+
+// Listen for setting changes to enable or disable auto-scrolling
+browser.storage.local.get(["endless_scroll", "auto_scroll_speed"]).then((result) => {
+    if (result.auto_scroll_speed) {
+        autoScrollSpeed = result.auto_scroll_speed;
+    }
+    if (result.endless_scroll) {
+        startAutoScroll();
+    }
+});
+
+// Add a listener for changes in the browser's storage
+browser.storage.onChanged.addListener((changes, area) => {
+    // Check if the change happened in the local storage area
+    if (area === "local") {
+        if ("auto_scroll_speed" in changes) {
+            autoScrollSpeed = changes.auto_scroll_speed.newValue || 0;
+        }
+        if ("endless_scroll" in changes) {
+            if (changes.endless_scroll.newValue) {
+                startAutoScroll(); 
+            } else {
+                stopAutoScroll();
+            }
+        }
+    }
+});
+
 // Mobile scroll is a different event (future work)
+
