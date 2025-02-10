@@ -1,27 +1,32 @@
-Welcome to our contributions page. This is a general guideline to help contributors in expanding our project.
+# Welcome to our Contributions Guide!
 
-## Types of contribution
+This document provides general guidelines to help contributors expand and improve our Firefox extension.
 
-There are many ways you can help improve this project!
+## How You Can Contribute
 
-* **adding new ideas to this extension:** please submit an [issues request](https://github.com/ossd-s25/Browser-Scroller/issues) with a "enhancement" label and "feature" type tags.
+There are many ways to support and enhance this project:
 
-* **implementing new features to this extension:** please submit a [pull request](https://github.com/ossd-s25/Browser-Scroller/pulls) to be reviewed for merge.
+### Suggest New Ideas
+If you have an idea for a new feature, please submit an [issue request](https://github.com/ossd-s25/Browser-Scroller/issues) with the labels `"enhancement"` and `"feature"` to help categorize your suggestion.
 
-* **reporting an existing bug that you found** please submit a [bug request](https://github.com/ossd-s25/Browser-Scroller/issues) with a "bug" label and "bug" type tags.
+### Implement New Features
+To contribute a new feature, submit a [pull request](https://github.com/ossd-s25/Browser-Scroller/pulls). Your code will be reviewed before being merged into the project.
 
-* **fixing an existing bug that you found** please submit a [pull request](https://github.com/ossd-s25/Browser-Scroller/pulls) to be reviewed for merge.
+### Report a Bug
+If you encounter a bug, please submit a [bug report](https://github.com/ossd-s25/Browser-Scroller/issues) with the labels `"bug"` and `"issue."` Clearly describe the problem and steps to reproduce it.
 
-* **adjusting or adding to documentation** please submit a [pull request](https://github.com/ossd-s25/Browser-Scroller/pulls) with a "documentation" label and "task" type tags.
+### Fix an Existing Bug
+If you're fixing a reported bug, submit a [pull request](https://github.com/ossd-s25/Browser-Scroller/pulls) with your proposed fix. Be sure to reference the related issue in your PR description.
 
-## Guidelines for examples code
+### Improve Documentation
+If you'd like to update or add documentation, submit a [pull request](https://github.com/ossd-s25/Browser-Scroller/pulls) with the labels `"documentation"` and `"task."`
 
-Examples should: N/A
+## Code Guidelines
 
-## Code style
-
-If you're editing an existing file, the [style of the code](https://github.com/ossd-s25/Browser-Scroller/blob/main/STYLEGUIDE.md) should be consistent with the rest of the code in the project.
+### Code Style
+When modifying existing files, ensure your code follows the [project style guide](https://github.com/ossd-s25/Browser-Scroller/blob/main/STYLEGUIDE.md) to maintain consistency across the project.
 
 ## Licensing
 
-Please note that all contributions must be compatible with the [MIT License](https://opensource.org/license/mit).
+All contributions must be compatible with the [MIT License](https://opensource.org/license/mit). By contributing, you agree that your code will be licensed under the MIT License.
+
