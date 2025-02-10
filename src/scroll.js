@@ -18,8 +18,8 @@ let throttled = false;
 const throttleDuration = 500; // ms
 
 // Listen for wheel events.
-window.addEventListener("wheel", (event) => {
-    if (throttled || !event.deltaY)
+setInterval(() => {
+    if (throttled)
         return;
     // Read setting from slider
     browser.storage.local.get("endless_scroll").then((result) => {
@@ -51,7 +51,7 @@ function startAutoScroll() {
     if (!autoScrollInterval) {
         autoScrollInterval = setInterval(() => {
             window.scrollBy(0, autoScrollSpeed);
-        }, 50); // Scroll every 50ms
+        }, 20); // Scroll every 20ms
     }
 }
 
