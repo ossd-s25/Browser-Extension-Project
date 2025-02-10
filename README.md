@@ -1,21 +1,22 @@
 # Browser-Scroller Project
 
-**Browser Scroller** is an open-source browser extension designed to provide a seamless, infinite browser scrolling. Instead of reaching the end of a webpage and having to manually navigate up, this extension automatically reloads the content from the top once the user scrolls to the bottom.
+**Browser Scroller** is an open-source browser extension designed to provide a seamless, infinite browser scrolling. Instead of reaching the end of a webpage and having to manually navigate up, this extension automatically reloads/scrolls the content from the top once the user scrolls to the bottom.
 
 
 ## Why Use This?
   
 - **Study Material Review**: Perfect for reviewing content like documentation, study guides, or papers, as it allows you to cycle through material repeatedly.
 
-- **Display for Continuous Content**: Adapt the extension for use on display screens for schedules, announcements, dashboards, or advertisements that need to keep repeating content without restarting the system.
+- **Display for Continuous Content**: Adapt the extension for use on display screens for schedules, announcements, dashboards, or advertisements that need to keep repeating content without restarting the system or manually scrolling through the content.
 
 This project is a simple browser extension built for learning and practicing open-source contributions.
 
 
 ## Features
 
-- Infinite scrolling: Automatically reloads content when reaching the bottom of the page.
-- Toggle On/Off: Enable or disable the extension with a simple toggle button.
+- Infinite Scrolling: Automatically reloads content when reaching the bottom of the page.
+- Toggle On/Off Switch: Enable or disable the extension with a simple toggle button.
+- Toggle Speed Slider: Increase or decrease the auto-scrolling speed with a simple slider.
 - Lightweight and minimalistic design.
 
 
@@ -46,7 +47,9 @@ Once the extension is installed:
 
 2. Click the **"Browser Scroller"** button.
 
-3. A popup with a toggle slider will appear, allowing you to activate or deactivate the extension at any time.
+3. A popup with a toggle button will appear, allowing you to active or deactive the extension at any time.
+
+4. A popup with a slider button will appear, allowing you to activate and adjust the auto-scrolling speed at any time.
 
 
 ## Troubleshooting
