@@ -41,7 +41,7 @@ let autoScrollSpeed = 0; // Default speed
 // Function to update speed from storage
 function updateAutoScrollSpeed() {
     browser.storage.local.get("auto_scroll_speed").then((result) => {
-        autoScrollSpeed = result.auto_scroll_speed || 5;
+        autoScrollSpeed = result.auto_scroll_speed || 0;
     });
 }
 
