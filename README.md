@@ -4,10 +4,6 @@
 
 
 ## Why Use This?
-
-Browser-Scroller is ideal for a variety of scenarios:
-
-- **Enhanced Reading Experience**: Keep your focus on long articles or webpages without interruptions by automatically reloads content as you reach the end.
   
 - **Study Material Review**: Perfect for reviewing content like documentation, study guides, or papers, as it allows you to cycle through material repeatedly.
 
