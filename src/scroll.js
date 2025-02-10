@@ -34,7 +34,6 @@ setInterval(() => {
     
 });
 
-
 // variables for auto scroll down speed when endless scroll is enabled
 let autoScrollInterval = null;
 let autoScrollSpeed = 0; // Default speed
